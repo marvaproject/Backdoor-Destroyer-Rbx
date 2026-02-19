@@ -1,6 +1,3 @@
-berarti totalnya gini?
-
-```
 [
   { "p": "loadstring", "r": "[CRITICAL] Remote Code Execution: Menjalankan kode kontrol jarak jauh dari server eksternal secara langsung." },
   { "p": "getfenv", "r": "[CRITICAL] Environment Hijacking: Upaya modifikasi proteksi keamanan internal dan akses memori sistem." },
