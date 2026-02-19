@@ -1,1 +1,10 @@
-
+[
+  { "p": "loadstring", "r": "Remote Code Execution" },
+  { "p": "getfenv", "r": "Environment Manipulation" },
+  { "p": "require", "r": "External Module Loader" },
+  { "p": "HttpGet", "r": "External HTTP Request" },
+  { "p": "HttpService", "r": "Network Injection Risk" },
+  { "p": "InsertService", "r": "Asset Injection Risk" },
+  { "p": "fireserver", "r": "Remote Abuse Risk" },
+  { "p": "InvokeServer", "r": "Remote Execution Risk" }
+]
