@@ -1,0 +1,12 @@
+{
+  "Watchlist": [
+    "Pose", "NumberPose", "ThumbnailCamera", "Humanoid", 
+    "Camera", "Folder", "Configuration", "NumberValue", "StringValue"
+  ],
+  "ObjectPatterns": [
+    {"p": "require", "r": "[CRITICAL] Metadata Injection: Ditemukan fungsi pemanggilan modul eksternal."},
+    {"p": "getfenv", "r": "[CRITICAL] Environment Manipulation: Upaya akses lingkungan sistem secara ilegal."},
+    {"p": "loadstring", "r": "[CRITICAL] Code Execution: Objek mengandung eksekutor kode mentah."},
+    {"p": "^%d{10,}$", "r": "[CRITICAL] Hidden Asset ID: Ditemukan ID Aset panjang yang mencurigakan di properti Value."}
+  ]
+}
