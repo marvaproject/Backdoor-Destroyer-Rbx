@@ -1,12 +1,11 @@
 {
   "Watchlist": [
     "Pose", "NumberPose", "ThumbnailCamera", "Humanoid", 
-    "Camera", "Folder", "Configuration", "NumberValue", "StringValue"
+    "Camera", "NumberValue", "StringValue", "IntValue"
   ],
   "ObjectPatterns": [
-    {"p": "require", "r": "[CRITICAL] Metadata Injection: Ditemukan fungsi pemanggilan modul eksternal."},
-    {"p": "getfenv", "r": "[CRITICAL] Environment Manipulation: Upaya akses lingkungan sistem secara ilegal."},
-    {"p": "loadstring", "r": "[CRITICAL] Code Execution: Objek mengandung eksekutor kode mentah."},
-    {"p": "^%d{10,}$", "r": "[CRITICAL] Hidden Asset ID: Ditemukan ID Aset panjang yang mencurigakan di properti Value."}
+    {"p": "require", "r": "[CRITICAL] Metadata Injection: Pemanggilan modul eksternal."},
+    {"p": "getfenv", "r": "[CRITICAL] Environment Manipulation: Akses sistem ilegal."},
+    {"p": "%d%d%d%d%d%d%d%d%d%d+", "r": "[CRITICAL] Hidden Asset ID: ID Aset sangat panjang (>10 digit) ditemukan di properti Value."}
   ]
 }
